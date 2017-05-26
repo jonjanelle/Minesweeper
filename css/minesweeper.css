@@ -1,0 +1,48 @@
+#board-header {
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+  border: 1px solid black;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#game-board {
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  background-color: #888888;
+}
+
+#flags-remaining: {
+  display: inline;
+  float: left;
+}
+
+
+.tile{
+  display: inline;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border: 2px outset #DDD;
+  border-radius: 1px;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+  font: sans-serif;
+  transition: box-shadow .1s, border-radius 1s ease-in-out;
+}
+
+.tile:hover {
+  border-color: #00CC00;
+  //border-radius: 8px;
+  border-style: ridge;
+  box-shadow: 2px 0px 15px 1px rgba(70,70,70,.7);
+  cursor: pointer;
+}
+.header {
+  text-align: center;
+}
+.glyphicon-flag {
+  color: #00CC00;
+}
